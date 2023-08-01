@@ -65,7 +65,7 @@ class State:
     
     def isMatch(self, stateInfo):
         """状态的属性stateInfo是否在当前的状态范围内"""
-        return True
+        return False
 
     def behavior(self, context):
         pass

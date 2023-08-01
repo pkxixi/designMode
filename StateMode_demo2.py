@@ -28,9 +28,7 @@ class Water(Context):
         if isinstance(state, State):
             state.behavior(self)
 
-    # 单例装饰器
-
-
+# 单例装饰器
 def singleton(cls, *args, **kwargs):
     instance = {}
 
